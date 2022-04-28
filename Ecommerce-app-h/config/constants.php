@@ -1,6 +1,6 @@
 <?php
 
-define('HOST', 'localhost');
+define('HOST', process.env.PORT || 'localhost');
 define('USER', 'root');
 define('PASSWORD', '');
 define('DATABASE_NAME', 'ecommerceapp');
